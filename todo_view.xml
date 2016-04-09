@@ -14,6 +14,12 @@
 					<field name="date_deadline" />
 					<attribute name="string">I have to...</attribute>
 				</field>
+				<sheet position="after">
+					<div class="oe_chatter">
+						<field name="message_follower_ids" widget="mail_followers" />
+						<field name="message_ids" widget="mail_thread" />
+					</div>
+				</sheet>
 			</field>
 		</record>
 
