@@ -4,5 +4,6 @@
 	'author': 'Salvador',
 	'depends': [
 				'todo_app',
-	]
+	],
+	'data': ['todo_view.xml'],
 }
